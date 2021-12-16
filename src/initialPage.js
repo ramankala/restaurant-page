@@ -1,5 +1,5 @@
 
-export default function content() {
+export default function aboutPg() {
     const content = document.querySelector('#content');
 
     const header = document.createElement('h1');
@@ -19,7 +19,29 @@ export default function content() {
     logo.classList.add('logo');
     logo.src = "https://cdn.w600.comps.canstockphoto.com/pizza-cook-peel-wood-fired-oven-crest-clipart-vector_csp38451851.jpg";
 
+    const naviBar = document.createElement('div');
 
+    const contactPage = document.createElement('div');
+    contactPage.classList.add('contactPage');
+    contactPage.setAttribute("id", "contactPage");
+    contactPage.textContent = "Contact";
+    
+    const menuPage = document.createElement('div');
+    menuPage.classList.add('menuPage');
+    menuPage.setAttribute("id", "menuPage");
+    menuPage.textContent = "Menu";
+    
+    const aboutPage = document.createElement('div');
+    aboutPage.classList.add('aboutPage');
+    aboutPage.setAttribute("id", "aboutPage");
+    aboutPage.textContent = "About";
+    
+    
+    naviBar.appendChild(aboutPage);
+    naviBar.appendChild(contactPage);
+    naviBar.appendChild(menuPage);
+    
+    content.appendChild(naviBar);
     content.appendChild(header);
     content.appendChild(logo);
     content.appendChild(about);
