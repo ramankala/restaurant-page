@@ -35,29 +35,6 @@ export default function menuPg(){
 
     Perfectly crispy potato wedges with parmesan cheese, garlic powder, and fresh parsley.`;
 
-    // const naviBar = document.createElement('div');
-
-    // const contactPage = document.createElement('div');
-    // contactPage.classList.add('contactPage');
-    // contactPage.setAttribute("id", "contactPage");
-    // contactPage.textContent = "Contact";
-    
-    // const menuPage = document.createElement('div');
-    // menuPage.classList.add('menuPage');
-    // menuPage.setAttribute("id", "menuPage");
-    // menuPage.textContent = "Menu";
-    
-    // const aboutPage = document.createElement('div');
-    // aboutPage.classList.add('aboutPage');
-    // aboutPage.setAttribute("id", "aboutPage");
-    // aboutPage.textContent = "About";
-    
-    
-    // naviBar.appendChild(aboutPage);
-    // naviBar.appendChild(contactPage);
-    // naviBar.appendChild(menuPage);
-    
-    // document.body.appendChild(naviBar);
 
     content.appendChild(header);
     content.appendChild(img1);
@@ -67,7 +44,6 @@ export default function menuPg(){
     content.appendChild(img3);
     content.appendChild(item3);
 
-    // document.body.insertBefore(naviBar, content);
 
 
     

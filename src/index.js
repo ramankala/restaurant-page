@@ -10,6 +10,7 @@ const content = document.querySelector("#content");
 
 
 const naviBar = document.createElement('div');
+naviBar.classList.add('naviBar');
 
 const contactPage = document.createElement('div');
 contactPage.classList.add('contactPage');
