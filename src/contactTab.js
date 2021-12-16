@@ -1,18 +1,25 @@
-
-export default function aboutPg() {
+export default function contactPg(){
     const content = document.querySelector('#content');
 
     const header = document.createElement('h1');
     header.classList.add('header');
-    header.textContent = "Potatoes of Heaven";
+    header.textContent = "Contact";
 
-    const about = document.createElement('p');
-    about.classList.add('about');
-    about.textContent = `Here at Potatoes of Heaven you will experience why Potatoes are the greatest through it's divine dishes.`;
+    const info = document.createElement('div');
+    info.classList.add('info');
+    info.textContent = `Phone: (xxx) xxx-xxxx
+    Fax: (xxx) xxx-xxxx
+    Email: thisisfake@email.ca
+    
+    Address: Nowhere Drive,
+    Somewhere in the Universe`;
 
-    const logo = document.createElement('IMG');
-    logo.classList.add('logo');
-    logo.src = "https://images.theconversation.com/files/401955/original/file-20210520-23-83r6ds.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop";
+    const hours = document.createElement('div');
+    hours.classList.add('hours');
+    hours.textContent = `Monday: 2AM to 7AM
+    Tuesday-Thursday: 2AM to 8AM
+    Friday-Saturday: 2AM to 9AM
+    Sunday: Closed`;
 
     // const naviBar = document.createElement('div');
 
@@ -35,14 +42,12 @@ export default function aboutPg() {
     // naviBar.appendChild(aboutPage);
     // naviBar.appendChild(contactPage);
     // naviBar.appendChild(menuPage);
-    // document.body.appendChild(naviBar);
     
-    content.appendChild(header);
-    content.appendChild(logo);
-    content.appendChild(about);
+    // document.body.appendChild(naviBar);
 
+    content.appendChild(info);
+    content.appendChild(hours);
     // document.body.insertBefore(naviBar, content);
 
     return content;
-
 }
