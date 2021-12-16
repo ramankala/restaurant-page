@@ -10,4 +10,10 @@ Using knowledge learned from the webpack demo and applying it to this project.  
 
 <h2>Self- Reflection Post-Completion</h2>
 
+Completing this project gave me excellent experience with using WebPack in organizing my modules and being able to import one to the other.  This project also allowed me to further improve my DOM manipulation skills.
+
 <h2>Live Demo</h2>
+
+To access a live demo version of this website, click the following link:
+
+https://ramankala.github.io/restaurant-page/
